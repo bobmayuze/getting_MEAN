@@ -1,0 +1,43 @@
+# Cheating Sheet of MonogoDB, Express, AngularJS, and Nodejs
+---
+
+## Node
+---
+Install package
+$ npm install
+
+Add more packages to existing project
+$ npm install --save {{package-name}}
+
+Start Express at localhost:3000
+$ npm start
+
+Install a plugin that can automically restart node when a change is made
+$ npm install -g nodemon
+
+Use nodemon.It is okay to use nodemon during the developing period, but it is not a good idea to use it for commericalized products
+$ nodemon
+
+MVC stands for model, view, controller.
+SPA stands for single page application.
+
+## Heroku
+---
+
+>You need to download the Heroku belt to use the command 
+
+	$ Heroku
+
+Running the service locally
+$Heroku Local web
+The web there refers to the ENV file I guess?
+
+
+
+
+
+
+
+
+
+
