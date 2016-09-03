@@ -8,7 +8,7 @@ var ctrlOthers = require('../controllers/others');
 
 
 /* GET home pages. */
-router.get('/', ctrlMain.index);
+// router.get('/', ctrlMain.index);
 
 /* GET Location pages. */
 router.get('/', ctrlLocations.homelist);
