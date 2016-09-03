@@ -6,6 +6,21 @@ html
 		link(rel='stylesheet', href='/stylesheets/style.css')
 		link(rel='stylesheet', href='/bootstrap/css/amelia.bootstrap.css')
 	body
+	.navbar.navbar-default.navbar-fixed-top
+		.container
+			.navbar-header
+				a.navbar-brand(href='/') Borilliant
+				button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-main')
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				#navbar-main.navbar-collapse.collapse
+					ul.nav.navbar-nav
+						li
+							a(href='/about/') About
+						li
+							a(href='/') Bob.Ma
+	.container     
 	block content
 	script(src='/javascripts/jquery-1.11.1.min.js')
 	script(src='/bootstrap/js/bootstrap.min.js')
