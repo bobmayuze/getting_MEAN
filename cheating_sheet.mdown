@@ -32,6 +32,14 @@ Running the service locally
 $Heroku Local web
 The web there refers to the ENV file I guess?
 
+## MongoDB
+
+Install mongoose package and add it to the dependency list
+$ npm install --save mongoose
+
+URI = Uniform Resource Identifier
+
+
 
 
 
