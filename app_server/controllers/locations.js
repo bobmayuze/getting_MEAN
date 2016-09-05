@@ -26,7 +26,7 @@ module.exports.homelist = function (req, res) {
 			facilities: ['Food', 'Premium wifi'],
 			distance: '250m'
 		}]
-	});
+	 });
 };
 
 /* GET 'Location info' page */
@@ -74,11 +74,7 @@ module.exports.locationinfo = function (req, res) {
 			reviewText: 'It was okay. Coffee wasn\'t great, but the wifi was fast.'
 		}]
 	}
-	
-
-
 	});
-
 }; 
 
 /* GET 'Add review' page */
@@ -88,6 +84,6 @@ module.exports.addReview = function (req, res) {
 		sidebar: {
 			context: 'is on Borilliant because it has accessible wifi and space to sit down with your laptop and get some work done.',
 			callToAction: 'If you\'ve been and you like it - or if you don\'t - please leave a review to help other people just like you.'
-		}
+		},
 	});
 }; 
