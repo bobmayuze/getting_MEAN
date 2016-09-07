@@ -39,7 +39,10 @@ $ npm install --save mongoose
 
 URI = Uniform Resource Identifier
 
+Structure of MongoDB
 
+collection
+	document: the final level for data
 
 
 
